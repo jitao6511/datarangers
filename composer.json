@@ -1,0 +1,18 @@
+{
+    "name": "365tf/datarangers",
+    "description": "365的DataRangers服务端埋点PHP SDK",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "lilei",
+            "email": "395156119@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DataRangers\\": "src/"
+        }
+    },
+    "require": {}
+}
