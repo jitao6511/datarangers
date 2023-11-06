@@ -786,6 +786,7 @@ class Header implements \JsonSerializable
         if ($this->tz_name != null) $data["tz_name"] = $this->tz_name;
         if ($this->udid != null) $data["udid"] = $this->udid;
         if ($this->user_unique_id != null) $data["user_unique_id"] = $this->user_unique_id;
+        if ($this->user_unique_id_type != null) $data["user_unique_id_type"] = $this->user_unique_id_type;
         if ($this->vendor_id != null) $data["vendor_id"] = $this->vendor_id;
         if ($this->ssid != null) $data["ssid"] = $this->ssid;
         if ($this->anonymous_id != null) {
